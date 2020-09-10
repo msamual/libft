@@ -2,10 +2,10 @@
 
 void	*ft_memmove(void *dest, const void *source, size_t size)
 {
-	unsigned char	*tmp;
-	unsigned char	*destination;
-	unsigned char	*src;
-	size_t		i;
+	unsigned char		*tmp;
+	unsigned char		*destination;
+	unsigned char		*src;
+	size_t			i;
 
 	tmp = malloc(sizeof(unsigned char) * size);
 	if (!tmp)

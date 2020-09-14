@@ -1,10 +1,10 @@
 #include "libft.h"
 
-void	*ft_memmove(void *dest, const void *source, size_t size)
+void			*ft_memmove(void *dest, const void *source, size_t size)
 {
-	unsigned char		*tmp;
-	unsigned char		*destination;
-	unsigned char		*src;
+	unsigned char	*tmp;
+	unsigned char	*destination;
+	unsigned char	*src;
 	size_t			i;
 
 	tmp = malloc(sizeof(unsigned char) * size);

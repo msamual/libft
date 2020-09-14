@@ -1,10 +1,10 @@
 
 #include "libft.h"
 
-char	*ft_strdup(const char *str)
+char		*ft_strdup(const char *str)
 {
 	char	*res;
-	int	i;
+	int		i;
 
 	i = -1;
 	if (!(res = malloc(sizeof(char) * ft_strlen(str))))

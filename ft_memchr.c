@@ -1,7 +1,7 @@
 
 #include "libft.h"
 
-void	*ft_memchr(void *ptr, int ch, size_t count)
+void	*ft_memchr(const void *s, int c, size_t n)
 {
 	unsigned char	chr;
 	unsigned char	*res;

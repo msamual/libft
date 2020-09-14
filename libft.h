@@ -6,12 +6,12 @@
 # include <stdlib.h>
 # include <string.h>
 
-void	*ft_memset(void *ptr, int value, size_t size);
+void	*ft_memset(void *b, int c, size_t len);
 void	*ft_bzero(void *ptr, size_t size);
 void	*ft_memcpy(void *dest, const void *src, size_t size);
 void	*ft_memccpy(void *dest, const void *src, int c, size_t size);
 void	*ft_memmove(void *dest, const void *source, size_t size);
-void	*ft_memchr(void *ptr, int ch, size_t count);
+void	*ft_memchr(const void *s, int c, size_t n);
 int	ft_memcmp(void *arr1, void *arr2, size_t size);
 int	ft_strlen(const char *str);
 char	*ft_strdup(const char *str);

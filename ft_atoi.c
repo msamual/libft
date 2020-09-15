@@ -7,7 +7,7 @@ int	ft_atoi(char *str)
 	neg = 0;
 	res = 0;
 	while (*str == ' ' || (*str > 8 && *str < 14))
-			str++;
+		str++;
 	if (*str == '-')
 		neg++;
 	if (*str == '-' || *str == '+')

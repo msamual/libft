@@ -1,18 +1,18 @@
 
 #include <string.h>
 
-void	*ft_memset(void *ptr, int value, size_t size)
+void	*ft_memset(void *b, int c, size_t len)
 {
 	unsigned char	*str;
-	unsigned char	c;
+	unsigned char	ch;
 
-	c = (unsigned char)value;
-	str = (unsigned char *)ptr;
-	while (size)
+	ch = (unsigned char)c;
+	str = (unsigned char *)b;
+	while (len)
 	{
-		*str = c;
+		*str = ch;
 		str++;
-		size--;
+		len--;
 	}
-	return (ptr);
+	return (b);
 }

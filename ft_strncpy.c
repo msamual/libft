@@ -2,6 +2,9 @@
 
 char	*ft_strncpy(char *dst, const char *src, size_t len)
 {
+	char *res;
+
+	res = dst;
 	while (*src && len)
 	{
 		*dst = *src;
@@ -15,5 +18,5 @@ char	*ft_strncpy(char *dst, const char *src, size_t len)
 		dst++;
 		len--;
 	}
-	return (dst);
+	return (res);
 }

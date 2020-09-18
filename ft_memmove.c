@@ -7,6 +7,8 @@ void			*ft_memmove(void *dest, const void *source, size_t size)
 	unsigned char	*src;
 	size_t			i;
 
+	if (!dest && !source)
+		return (NULL);
 	tmp = malloc(sizeof(unsigned char) * size);
 	if (!tmp)
 		return (dest);
